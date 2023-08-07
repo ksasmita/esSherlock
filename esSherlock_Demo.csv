@@ -1,0 +1,25 @@
+Experiment,subid,Gender,Age,grain
+esSherlock,1,F,19,c
+esSherlock,2,M,25,f
+esSherlock,3,F,21,c
+esSherlock,4,F,19,f
+esSherlock,6,F,19,f
+esSherlock,7,F,20,c
+esSherlock,8,F,18,f
+esSherlock,9,F,39,c
+esSherlock,10,M,20,f
+esSherlock,11,M,21,c
+esSherlock,12,M,22,f
+esSherlock,13,M,19,c
+esSherlock,14,M,20,f
+esSherlock,15,M,23,c
+esSherlock,17,F,18,c
+esSherlock,16,M,21,f
+esSherlock,18,F,20,f
+esSherlock,20,F,19,f
+esSherlock ,21,M,19,c
+esSherlock,22,F,21,f
+esSherlock,23,M,24,c
+esSherlock,24,F,21,f
+esSherlock,25,M,19,c
+esSherlock,26,F,20,f
