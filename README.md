@@ -10,7 +10,7 @@ This document contains details on data collection procedure for the stimuli: She
 ![image](https://github.com/ksasmita/esSherlock/assets/20369844/9240b204-4339-409d-8650-9e6e7a17fb24)
  
 Participants performed the segmentation task on the ~50 minute episode of Sherlock Holmes: Study in Pink (REF). Participants performed the segmentation task in video chunks, each lasting approximately 5 minute long (mean duration = 299.78s). Separate groups of participants performed the task in coarse (n = 11) and fine (n = 13) grains. 
-All participants completed a practice task before they began segmenting. Practice was performed to criterion (fine = XX, coarse = XX button presses per minute). 
+All participants completed a practice task before they began segmenting. Practice was performed to criterion (fine = 15-36, coarse = 3-8 button presses per minute). 
 
 **Materials**
 
