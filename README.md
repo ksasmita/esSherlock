@@ -13,18 +13,18 @@ All participants completed a practice task before they began segmenting. Practic
 
 Materials 
 Practice task 
-•	2-minute video from the movie 3 Backyards (Mendelsohn, 2010) presented in two clips (1 minute and 1:03 minutes each). 
-•	The first 3s of the second clip overlapped with the last 3s of the first clip. 
+* 2-minute video from the movie 3 Backyards (Mendelsohn, 2010) presented in two clips (1 minute and 1:03 minutes each). 
+* The first 3s of the second clip overlapped with the last 3s of the first clip. 
 Segmentation task
-•	48.12 minutes (2778.3s) of the first episode of Sherlock Holmes: Study in Pink divided into 10 clips (mean duration = 299.78s). 
-•	This movie stimuli do not contain the ~7s blank screens present in the stimuli used in the original Sherlock paper. 
-•	This movie stimuli do not contain the 39s cartoon present at the beginning of each movie run in the original Sherlock paper. 
-•	The first clip was constructed by first selecting the first 5 minute of the full episode. We then extended this clip to the nearest scene cut. Subsequent clips were constructed in the same way, starting from the ending of the first clip. However, for subsequent clips, we added a ~12s overlap from the 5th minute point of the previous clip to the end of the clip.  
+* 48.12 minutes (2778.3s) of the first episode of Sherlock Holmes: Study in Pink divided into 10 clips (mean duration = 299.78s). 
+* This movie stimuli do not contain the ~7s blank screens present in the stimuli used in the original Sherlock paper. 
+* This movie stimuli do not contain the 39s cartoon present at the beginning of each movie run in the original Sherlock paper. 
+* The first clip was constructed by first selecting the first 5 minute of the full episode. We then extended this clip to the nearest scene cut. Subsequent clips were constructed in the same way, starting from the ending of the first clip. However, for subsequent clips, we added a ~12s overlap from the 5th minute point of the previous clip to the end of the clip.  
 
 Procedure 
-•	All participants performed the segmentation task in one grain (either fine or coarse). 
-•	All participants started with a practice task. Practice segmentation was repeated until participants reached criterion. 
-•	Following the practice task, participants performed the segmentation task on the Sherlock clips. Clips were presented in order. Participants were told that they were allowed to take breaks in between each clip, and they can start a new clip by pressing the “SPACEBAR”. 
+* All participants performed the segmentation task in one grain (either fine or coarse).
+* All participants started with a practice task. Practice segmentation was repeated until participants reached criterion.
+* Following the practice task, participants performed the segmentation task on the Sherlock clips. Clips were presented in order. Participants were told that they were allowed to take breaks in between each clip, and they can start a new clip by pressing the “SPACEBAR”. 
 
 Participants 
 Demographics: esSherlock_Demo.csv 
@@ -32,7 +32,7 @@ Demographics: esSherlock_Demo.csv
 Segmentation Data
 File: esSherlock_SegmentData.csv
 Segmentation data has been preprocessed in the following way: 
-•	Button presses that occurred within 500ms from the previous one was removed (indicate recording artifact). 
-•	Button presses within each clip had been adjusted to account for the overlap at the start of each clip (other than clip no 1) and referenced to the start of the Sherlock episode. 
-•	Button press times across all clips were then concatenated to create a timeseries that reflect boundary time points for the full length of the movie stimuli. 
-![image](https://github.com/ksasmita/esSherlock/assets/20369844/45cc15ba-1ee4-4861-9fe2-354a9946424f)
+* Button presses that occurred within 500ms from the previous one was removed (indicate recording artifact).
+* Button presses within each clip had been adjusted to account for the overlap at the start of each clip (other than clip no 1) and referenced to the start of the Sherlock episode.
+* Button press times across all clips were then concatenated to create a timeseries that reflect boundary time points for the full length of the movie stimuli. 
+
