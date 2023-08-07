@@ -29,9 +29,11 @@ _Segmentation task_
 * Following the practice task, participants performed the segmentation task on the Sherlock clips. Clips were presented in order. Participants were told that they were allowed to take breaks in between each clip, and they can start a new clip by pressing the “SPACEBAR”. 
 
 **Participants** 
+
 Demographics: esSherlock_Demo.csv 
 
 **Segmentation Data**
+
 File: esSherlock_SegmentData.csv
 Segmentation data has been preprocessed in the following way: 
 * Button presses that occurred within 500ms from the previous one was removed (indicate recording artifact).
