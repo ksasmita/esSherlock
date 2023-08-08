@@ -7,7 +7,7 @@ This document details the data collection procedure for the movie Sherlock Holme
 
 **Task overview**
 
-![image](https://github.com/ksasmita/esSherlock/assets/20369844/9240b204-4339-409d-8650-9e6e7a17fb24)
+<img width="980" alt="image" src="https://github.com/ksasmita/esSherlock/assets/20369844/abf588f9-39af-4be3-87ae-b0fc7b57a214">
  
 Participants performed the segmentation task on 10x5 minute clips (mean duration = 299.78s) extracted from the Sherlock Holmes episode used in Chen et al., 2017. Separate groups of participants performed coarse (n = 11) and fine (n = 13) segmentation. 
 Prior to the start of the experiment, all participants completed a practice task until they reached performance criterion (fine = 15-36, coarse = 3-8 button presses per minute). 
