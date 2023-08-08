@@ -3,14 +3,14 @@ This repository contains segmentation task data on the first episode of BBC seri
 
 **About**
 
-This document contains details on data collection procedure for the stimuli: Sherlock Holmes. It complements neural data from the open repository: https://openneuro.org/datasets/ds001132/versions/1.0.0/00003
+This document details the data collection procedure for the movie Sherlock Holmes. It complements the neural data from the open repository: https://openneuro.org/datasets/ds001132/versions/1.0.0/00003 published originally in: Chen, J., Leong, Y., Honey, C. et al. Shared memories reveal shared structure in neural activity across individuals. Nat Neurosci 20, 115–125 (2017). https://doi.org/10.1038/nn.4450
 
 **Task overview**
 
 ![image](https://github.com/ksasmita/esSherlock/assets/20369844/9240b204-4339-409d-8650-9e6e7a17fb24)
  
-Participants performed the segmentation task on the ~50 minute episode of Sherlock Holmes: Study in Pink (REF). Participants performed the segmentation task in video chunks, each lasting approximately 5 minute long (mean duration = 299.78s). Separate groups of participants performed the task in coarse (n = 11) and fine (n = 13) grains. 
-All participants completed a practice task before they began segmenting. Practice was performed to criterion (fine = 15-36, coarse = 3-8 button presses per minute). 
+Participants performed the segmentation task on 10x5 minute clips (mean duration = 299.78s) extracted from the Sherlock Holmes episode used in Chen et al., 2017. Separate groups of participants performed coarse (n = 11) and fine (n = 13) segmentation. 
+Prior to the start of the experiment, all participants completed a practice task until they reached performance criterion (fine = 15-36, coarse = 3-8 button presses per minute). 
 
 **Materials**
 
@@ -18,25 +18,21 @@ _Practice task_
 * 2-minute video from the movie 3 Backyards (Mendelsohn, 2010) presented in two clips (1 minute and 1:03 minutes each). 
 * The first 3s of the second clip overlapped with the last 3s of the first clip. 
 _Segmentation task_
-* 48.12 minutes (2778.3s) of the first episode of Sherlock Holmes: Study in Pink divided into 10 clips (mean duration = 299.78s). 
-* This movie stimuli do not contain the ~7s blank screens present in the stimuli used in the original Sherlock paper. 
-* This movie stimuli do not contain the 39s cartoon present at the beginning of each movie run in the original Sherlock paper. 
-* The first clip was constructed by first selecting the first 5 minute of the full episode. We then extended this clip to the nearest scene cut. Subsequent clips were constructed in the same way, starting from the ending of the first clip. However, for subsequent clips, we added a ~12s overlap from the 5th minute point of the previous clip to the end of the clip.  
-
-**Procedure** 
-* All participants performed the segmentation task in one grain (either fine or coarse).
-* All participants started with a practice task. Practice segmentation was repeated until participants reached criterion.
-* Following the practice task, participants performed the segmentation task on the Sherlock clips. Clips were presented in order. Participants were told that they were allowed to take breaks in between each clip, and they can start a new clip by pressing the “SPACEBAR”. 
+* 48.12 minutes (2778.3s) video of Sherlock Holmes: A Study in Pink divided into 10 clips (mean duration = 299.78s).
+* Note that we removed the 7s blank screens at the end and the cartoon clip at the beginning of each movie run used in the original Sherlock paper (Chen et al., 2017). 
+* To construct the clips, we first divided the Sherlock video into 5-minute chunks. We then extended the ends of each clip to the nearest scene cut (mean extension duration = 11.05s). Next, we included the extended portion of each clip to the beginning of the following clip (except for the first clip). 
 
 **Participants** 
 
-Demographics: esSherlock_Demo.csv 
+Coarse segmentation (N = 11), Fine segmentation (N = 13). 
 
 **Segmentation Data**
 
 File: esSherlock_SegmentData.csv
-Segmentation data has been preprocessed in the following way: 
-* Button presses that occurred within 500ms from the previous one was removed (indicate recording artifact).
-* Button presses within each clip had been adjusted to account for the overlap at the start of each clip (other than clip no 1) and referenced to the start of the Sherlock episode.
-* Button press times across all clips were then concatenated to create a timeseries that reflect boundary time points for the full length of the movie stimuli. 
+File headers: 
+bpTime (button press time relative to the start of the entire movie length), subid (subject ID), clipNo (index of the 5m-clip the button press originated from), bp (total number of button presses made for the listed clipNo). 
 
+Segmentation data has been preprocessed in the following way: 
+* Button presses that occurred within 500ms from the previous one were removed (indicate recording artifact).
+* Button presses within each clip had been adjusted to account for the overlap at the start of each clip (other than clip no 1) and referenced to the start of the Sherlock episode.
+* Button press times across all clips were then concatenated to create a time series that reflected boundary times for the full length of the video stimuli.
