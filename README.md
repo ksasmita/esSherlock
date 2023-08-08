@@ -26,7 +26,7 @@ _Segmentation task_
 
 **Participants** 
 
-Coarse segmentation (N = 11), Fine segmentation (N = 13). 
+13 Female, 11 Male between the ages of 18-39 (M = 21.13, SD = 4.19) segmented in the coarse (N = 11) and fine (N = 13) segmentation grains. 
 
 **Segmentation Data**
 
