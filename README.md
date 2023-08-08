@@ -36,5 +36,5 @@ bpTime (button press time relative to the start of the 48-min video stimuli), su
 
 Segmentation data has been preprocessed in the following way: 
 * Button presses that occurred within 500ms from the previous one were removed (indicate recording artifact).
-* Button presses within each clip had been adjusted to account for the overlap at the start of each clip (other than clip no 1) and referenced to the start of the Sherlock episode.
+* Button presses within each clip had been adjusted to account for the overlap at the start of each clip (other than clip no 1) and referenced to the start of the video stimuli.
 * Button press times across all clips were then concatenated to create a time series that reflected boundary times for the full length of the video stimuli.
