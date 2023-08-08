@@ -29,7 +29,9 @@ Coarse segmentation (N = 11), Fine segmentation (N = 13).
 **Segmentation Data**
 
 File: esSherlock_SegmentData.csv
+
 File headers: 
+
 bpTime (button press time relative to the start of the entire movie length), subid (subject ID), clipNo (index of the 5m-clip the button press originated from), bp (total number of button presses made for the listed clipNo). 
 
 Segmentation data has been preprocessed in the following way: 
