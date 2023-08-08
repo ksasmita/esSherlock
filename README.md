@@ -17,7 +17,8 @@ Prior to the start of the experiment, all participants completed a practice task
 
 _Practice task_ 
 * 2-minute video from the movie 3 Backyards (Mendelsohn, 2010) presented in two clips (1 minute and 1:03 minutes each). 
-* The first 3s of the second clip overlapped with the last 3s of the first clip. 
+* The first 3s of the second clip overlapped with the last 3s of the first clip.
+  
 _Segmentation task_
 * 48.15 minutes (2888.8s) video of Sherlock Holmes: A Study in Pink divided into 10 clips (mean duration = 299.78s).
 * Note that we removed the 7s blank screens at the end and the cartoon clip at the beginning of each movie run used in the original Sherlock paper (Chen et al., 2017). 
