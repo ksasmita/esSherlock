@@ -1,6 +1,6 @@
 # esSherlock
 This repository contains segmentation task data on the first episode of BBC series Sherlock Holmes: A Study in Pink (McGuigan, 2010). 
-**These data were collected for projects conducted by Karen Sasmita, Ruiyi Chen, and Khena Swallow in the Department of Psychology at Cornell University**
+These data were collected for projects conducted by Karen Sasmita, Ruiyi Chen, and Khena Swallow in the Department of Psychology at Cornell University.
 
 **About**
 
@@ -8,10 +8,10 @@ This document details the data collection procedure for the movie Sherlock Holme
 
 **Task overview**
 
-<img width="980" alt="image" src="https://github.com/ksasmita/esSherlock/assets/20369844/542e2d22-edf2-4db0-a3fb-5d94d670b00a">
+<img width="980" alt="image" src="https://github.com/ksasmita/esSherlock/assets/20369844/71f8114c-6908-4ef0-be91-e0aa7967058d">
  
 Participants performed the segmentation task on 10x5 minute clips (mean duration = 299.78s) extracted from the Sherlock Holmes episode used in Chen et al., 2017. Separate groups of participants performed coarse (n = 11) and fine (n = 13) segmentation. 
-Prior to the start of the experiment, all participants completed a practice task until they reached performance criterion (fine = 15-36, coarse = 3-8 button presses per minute). 
+Prior to the start of the experiment, all participants completed a practice task until they reached performance criterion (fine = 15-36, coarse = 3-8 button presses). 
 
 **Materials**
 
