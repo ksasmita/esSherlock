@@ -1,6 +1,6 @@
 # esSherlock
 This repository contains segmentation task data on the first episode of BBC series Sherlock Holmes: A Study in Pink (McGuigan, 2010). 
-These data were collected for projects conducted by Karen Sasmita, Ruiyi Chen, and Khena Swallow in the Department of Psychology at Cornell University
+**These data were collected for projects conducted by Karen Sasmita, Ruiyi Chen, and Khena Swallow in the Department of Psychology at Cornell University**
 
 **About**
 
